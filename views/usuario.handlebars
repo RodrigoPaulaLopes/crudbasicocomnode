@@ -1,0 +1,6 @@
+<a href="/todos">Voltar</a>
+<p>seu nome é: {{user.nome}}</p>
+<p>sua idade é: {{user.idade}}</p>
+<form action="/user/delete/{{user.id}}" method="post">
+    <input type="submit" value="remover">
+</form>

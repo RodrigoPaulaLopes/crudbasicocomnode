@@ -1,0 +1,14 @@
+<ul>
+    {{#each users}}
+    <span>-------------------------</span>
+        <li>Nome: {{this.nome}}</li>
+        <li>Idade:{{this.idade}}</li>
+        <li>Detalhes: <a href="/usuario/{{this.id}}">Ver</a></li>
+        <li><a href="/usuario/edit/{{this.id}}">Editar</a></li>
+        
+    <span>-------------------------</span>
+    {{/each}}
+</ul>
+
+
+<a href="/">Voltar</a>

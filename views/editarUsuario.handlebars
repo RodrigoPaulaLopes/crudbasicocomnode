@@ -1,0 +1,11 @@
+<h1>Editar Usuario</h1>
+<form action="/user/update" method="POST">
+    <input type="hidden" name="id" value="{{user.id}}">
+    <label for="">nome</label>
+    <input type="text" name="nome" value="{{user.nome}}">
+    <label for="">idade</label>
+    <input type="text" name="idade" value="{{user.idade}}">
+    <input type="submit" value="Atualizar">
+</form>
+
+<a href="/todos">Ver Todos os registros</a>
